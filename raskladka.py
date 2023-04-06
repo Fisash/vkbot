@@ -3,7 +3,7 @@ eng = list("qwertyuiop[]asdfghjkl;'zxcvbnm,.")
 
 class LayoutChanger():
 
-    def translate(_data):
+    def change(_data):
         result = _data;
         to_rus = True
         for i in range(len(rus)):
